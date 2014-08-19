@@ -1,4 +1,4 @@
 flaming-wookie
 ==============
 
-its self explanatory
+This is a default.
