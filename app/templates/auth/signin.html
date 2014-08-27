@@ -1,3 +1,8 @@
+{% extends "base.html" %}
+{% block title %}Welcome!{% endblock %}
+
+{% block main %}
+
 {% macro render_field(field, placeholder=None) %}
 {% if field.errors %}
 <div>
@@ -48,3 +53,11 @@
     </form>  
   </div>
 </div>
+{% endblock %}
+
+
+{% block footer %}
+  <footer> 
+    <p>&copy; Company 2014</p> 
+  </footer> 
+{% endblock %}
